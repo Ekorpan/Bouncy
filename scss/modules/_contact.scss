@@ -1,0 +1,34 @@
+.contact {
+	background: url('../images/contact.jpg') no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	margin-top: 100px;
+	text-align: center;
+	height: 200px;
+	//padding-bottom: 55px;
+	
+	&__title {
+		padding-top: 40px;
+		margin-bottom: 30px;
+		color: #FFF;
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	&__link {
+		line-height: 37px;
+		padding: 5px 10px;
+		margin-bottom: 55px;
+		border: 2px solid white;
+		color: #FFF;
+		text-transform: capitalize;
+		border-radius: 30px;
+		cursor: pointer;
+		transition: all .3s;
+		
+		&::hover {
+			transform: scale(2);
+		}
+	}
+}

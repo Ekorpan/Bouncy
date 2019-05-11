@@ -1,0 +1,18 @@
+.testim {
+	background: #f3f3f3;
+	text-align: center;
+	&__title {
+		padding-top: 80px;
+		font: 300 20px 'Source Sans Pro', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		padding-bottom: 40px;
+		
+	}
+	&__desc	{
+		font-size: 14px;
+		line-height: 25px;
+		padding-bottom: 50px;
+		color: #81868E;
+	}
+}
